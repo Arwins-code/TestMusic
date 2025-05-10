@@ -77,11 +77,11 @@ class MusicListFragment : Fragment() {
             }
         }
 
-        binding.playerControl.ibPlay.setOnClickListener {
-            if (mediaPlayer?.isPlaying == true) {
-                mediaPlayer?.pause()
-            }
-        }
+//        binding.playerControl.ibPlay.setOnClickListener {
+//            if (mediaPlayer?.isPlaying == true) {
+//                mediaPlayer?.pause()
+//            }
+//        }
         binding.playerControl.ibPrevious.setOnClickListener {
             playPreviousTrack()
         }
